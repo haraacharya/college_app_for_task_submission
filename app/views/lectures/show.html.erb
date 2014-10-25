@@ -1,0 +1,21 @@
+<p>
+
+	<dl>
+	  <dt>lecture_name:</dt>
+	  <dd><%= @lecture.lecture_name %></dd>
+	  <dt>instructor_name:</dt>
+	  <dd><%= @lecture.instructor_name %></dd>
+	  <dt>course_day_time:</dt>
+	  <dd><%= @lecture.course_day_time %></dd>
+	</dl>
+
+</p>
+<hr>
+
+<h3>Assignments:</h3>
+
+<ul>
+<% @assignments.each do |assignment| %>
+  <li><%= link_to assignment.question, assignment %></li>
+<% end %>
+</ul>

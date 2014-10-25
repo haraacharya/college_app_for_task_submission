@@ -1,0 +1,14 @@
+<p>
+	<dl>
+	  <dt>Question:</dt>
+		<div class="well"><dd><%= @assignment.question %></dd></div>
+		Hint: <%= @assignment.hint %><hr>
+
+	</dl>
+</p>	
+
+
+<%= simple_form_for @answer do |f| %>
+  <%= f.input :response_to_assignment, as: :text %>
+  <%= f.button :submit %>
+<% end %>
