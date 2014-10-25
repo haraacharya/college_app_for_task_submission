@@ -1,10 +1,10 @@
-class AnswerController < ApplicationController
+class AnswersController < ApplicationController
 
 	def update
 		a = Answer.find(params[:id])
-		a.response = params[:answer][:response_to_assignment]
+		a.response_to_assignment = params[:answer][:response_to_assignment]
 		a.save
-		resirect_to assignment_path(a.assignment)
+		redirect_to assignment_path(a.assignment)
 	end
 	
 end
