@@ -1,28 +1,23 @@
-== README
+Ruby version:              2.1.2-p95 (i686-linux)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RubyGems version          2.2.2
 
-Things you may want to cover:
+Rack version              1.5
 
-* Ruby version
+Rails version             4.1.6
 
-* System dependencies
+JavaScript Runtime        Node.js
 
-* Configuration
+Active Record version     4.1.6
 
-* Database creation
+Action Pack version       4.1.6
 
-* Database initialization
+Action View version       4.1.6
 
-* How to run the test suite
+Action Mailer version     4.1.6
 
-* Services (job queues, cache servers, search engines, etc.)
+Active Support version    4.1.6
 
-* Deployment instructions
+Database adapter          postgresql
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Database schema version   20141025213444
